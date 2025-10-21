@@ -27,7 +27,7 @@ Grid accepts the optional property additionalClasses for customization.
 </script>
 
 <div
-  class="grid grid-cols-8 lg:grid-cols-12 gap-x-4 md:gap-x-5 lg:gap-x-6 max-w-[67.5rem] mx-auto {additionalClasses}"
+  class="grid grid-cols-8 lg:grid-cols-12 gap-x-0 md:gap-x-0 lg:gap-x-0 max-w-[67.5rem] mx-auto {additionalClasses}"
 >
   {@render children?.()}
 </div>
