@@ -13,21 +13,6 @@ Renders a visual replica of the Immersive Template hero.
 - dek: string;
 - authorName: string;
 - authorBioUrl: string;
-
-#### Example
-```svelte
-<Hero
-  sectionLabel = "Section label",
-  headline = "Lorem ipsum dolor sit amet consectetur adipiscing elit",
-  timestamp = "Dec. 1, 1977",
-  heroImageUrl = "https://arc.stimg.co/startribunemedia/4SPNT7DI36ANT2SOB5N5EJAIJU.jpg",
-  heroImageCaption = "",
-  heroImageAltText = "",
-  dek = "Lorem ipsum dolor sit amet consectetur adipiscing elit, fusce sociis at montes vitae tempor enim, venenatis tristique feugiat arcu dis ridiculus.",
-  authorName = "Bryan Brussee",
-  authorBioUrl = "https://www.startribune.com/bryan-brussee/8455834",
->
-```
 -->
 
 <script>
@@ -42,7 +27,7 @@ Renders a visual replica of the Immersive Template hero.
 
   /** @type {{sectionLabel?: string; headline?: string; timestamp?: string; heroImageUrl?: string; heroImageCaption?: string; heroImageAltText?: string; dek?: string; authorName?: string; authorBioUrl?: string;}} */
   let {
-    sectionLabel = "",
+    sectionLabel = "yayaya",
     headline = "",
     timestamp = "",
     heroImageUrl = "",
@@ -57,7 +42,7 @@ Renders a visual replica of the Immersive Template hero.
 <Grid additionalClasses="gap-y-8 md:gap-y-10">
   <GridRow>
     <div class="flex justify-center my-6">
-      <SectionLabel>{sectionLabel}</SectionLabel>
+      <SectionLabel>none</SectionLabel>
     </div>
     <div class="flex flex-col gap-y-6 md:gap-y-8 text-center">
       <Headline>{headline}</Headline>

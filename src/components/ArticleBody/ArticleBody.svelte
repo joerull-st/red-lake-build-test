@@ -36,6 +36,8 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
   import Subhead from "./_Subhead.svelte";
   import Paragraph from "./_Paragraph.svelte";
     import StoryPause from "./_StoryPause.svelte";
+    import BreakRight from "./_BreakRight.svelte";
+
   import Image from "../Image/Image.svelte";
   import ScrollySection from "../Scrolly/ScrollySection.svelte";
  
@@ -118,6 +120,14 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 <Paragraph>	The Desjarlait name is well known on the reservation, stretching back generations. Nolan&rsquo;s grandfather Leo Desjarlait was a Navy man who served in World War II. He died in 2014 two weeks shy of his 99th birthday. Nolan was his personal barber in the final years of his life.	</Paragraph>
 <Paragraph>	Nolan&rsquo;s dad, Leo Desjarlait Jr., was Red Lake&rsquo;s fire chief throughout his son&rsquo;s childhood. He now works for the reservation&rsquo;s Transit Department and Ramona, Nolan&rsquo;s mom, is program director for the department.	</Paragraph>
 <Paragraph>	Located 250 miles northwest of Minneapolis, the reservation is home to the Red Lake Band of Chippewa Indians and the largest lake contained entirely within the state&rsquo;s borders. More than 5,500 members make up the Red Lake Nation, which is governed by a democratically elected chair and Tribal Council that upholds and protects its sovereignty. The high school has an enrollment of 327 students.	</Paragraph>
+
+
+<BreakRight>
+<iframe src="https://datawrapper.dwcdn.net/evgrB/4/" border="0" frameborder="0" scrolling="no" width="100%" height="285"></iframe>
+</BreakRight>
+
+
+
 <Paragraph>	Across these nearly 900 square miles, Nolan Desjarlait&rsquo;s athletic feats in the 1990s were legendary. A game-saving double play he turned by himself in his sophomore year helped send Red Lake to its first and only baseball state tournament appearance. He was all-conference in three sports as a senior.	</Paragraph>
 <Paragraph>	Desjarlait played two years of college baseball and was back home working as an electrician when the school district invited him to coach middle school sports. He became the high school&rsquo;s athletic director in 2007, and also serves as head boys basketball coach, assistant baseball coach and football coach. He also ran the school&rsquo;s mail operation for years.	</Paragraph>
 <Paragraph>	Football is a tough sell at Red Lake High. The boys basketball team has advanced to the state tournament nine times since 1997, and many student-athletes here skip football to save their bodies for hoops. By the time Desjarlait took over in 2008, the team had been dismissed from its conference over frequent forfeits and cancellations. The Warriors found a new conference home a decade ago, but challenges remain.	</Paragraph>
